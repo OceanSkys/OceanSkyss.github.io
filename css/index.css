@@ -1,0 +1,116 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 15px solid aqua;
+    background-color: yellow; 
+    background-image: url(/Day5/image/Laptop\ 2.JPG);
+}
+header{
+    color: yellow;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 5px 5px purple;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: blue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 15px 15px 15px;
+
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 5px 5px 5px;
+    position: sticky;
+    top: 0px;
+}
+nav a:visited{
+    color: green;
+}
+nav a:link{
+    color: yellow;
+    text-decoration: underline wavy;
+}
+nav a:hover{
+    color: cyan;
+}
+nav a:active{
+    color: darkmagenta;
+}
+section{
+    background-color: #D0A48B;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+aside{
+    float: right;
+    padding-right: 15px;
+}
+aside img{
+    height: 500px;
+    width: 500px;
+    border: 5px dotted aqua;
+    box-shadow: 15px 0px cyan;
+    margin-bottom: 25px;
+}
+article{
+    float: left;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+article h3{
+    border: 5px solid aqua;
+    background-color: aqua;
+    color: blue;
+}
+article iframe{
+    border: 5px dotted aqua;
+}
+.bakeShop{
+    background-color: #D0A48B;
+    margin-bottom: 15px;
+}
+figure img{
+    height:500px;
+    width: 500px;
+    /*1st paremeter
+        1st parameter is right side
+        2st parameter is bottom
+    /*2nd paremter
+        is bottom if positive
+        is top if negative*/
+    box-shadow: 15px 0px cyan;
+    margin-bottom: 25px;
+}
+figcaption{
+    float: left;
+    color: blue;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: yellow;
+    text-align: center;
+    padding-top: 15px;
+}
+footer a:visited{
+    color:red
+}
+footer a:link{
+    color: red;
+    text-decoration: none;
+}
+footer a:hover{
+    color: cyan;
+}
